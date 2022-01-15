@@ -8,6 +8,7 @@ operation = int(input(""">>>Operation<<<
     [2] Subtraction
     [3] Division
     [4] Multiplication
+    [5] Pow
 """))
 
 calc = Calc(n1, n2)

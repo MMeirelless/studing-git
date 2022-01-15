@@ -1,3 +1,5 @@
+from math import pow
+
 class Calc():
 
     # Cosntructor
@@ -18,7 +20,10 @@ class Calc():
         return self.n1 * self.n2
     
     def div(self):
-        return self.n1 / self.n2        
+        return self.n1 / self.n2
+
+    def pow(self):
+        return self.n1**self.n2
 
     # Calculate
     def calculate(self, op):
@@ -33,6 +38,9 @@ class Calc():
 
         elif op == 4:
             return self.mult()
+
+        elif op == 5:
+            return self.pow()
 
         else:
             return "Invalid operation option"
