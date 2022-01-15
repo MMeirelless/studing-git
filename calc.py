@@ -43,4 +43,4 @@ class Calc():
             return self.pow()
 
         else:
-            return "Invalid operation option"
+            return "Invalid operation option!"
