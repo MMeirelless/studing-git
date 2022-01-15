@@ -22,9 +22,6 @@ class Calc():
     def div(self):
         return self.n1 / self.n2
 
-    def pow(self):
-        return self.n1**self.n2
-
     # Calculate
     def calculate(self, op):
         if op == 1:
@@ -38,9 +35,6 @@ class Calc():
 
         elif op == 4:
             return self.mult()
-
-        elif op == 5:
-            return self.pow()
 
         else:
             return "Invalid operation option!"
