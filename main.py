@@ -11,4 +11,4 @@ operation = int(input(""">>>Operation<<<
 """))
 
 calc = Calc(n1, n2)
-print(f"Result: {calc.calculate(operation)}")
+print(f"Calc result: {calc.calculate(operation)}")
